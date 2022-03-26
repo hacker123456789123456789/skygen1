@@ -12,8 +12,8 @@
 require __DIR__.'../../_classes/Template.php';
 
 
-define('DB_HOST', 'https://skygen11.herokuapp.com/');
-define('DB_NAME', 'u135333_UK8s4RJLe6');
+define('DB_HOST', 'https://skygen11.herokuapp.com');
+define('DB_NAME', 's135333_effrds');
 define('DB_USERNAME', 'u135333_UK8s4RJLe6n');
 define('DB_PASSWORD', '^l@6PuvkKtjqFE2.KB60UzU^');
 define('ERROR_MESSAGE', 'Erreur dans la base de donnée !');	try {
