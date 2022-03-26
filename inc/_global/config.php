@@ -13,9 +13,9 @@ require __DIR__.'../../_classes/Template.php';
 
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'u345964el7_gen');
-define('DB_USERNAME', 'u345964el7_gen');
-define('DB_PASSWORD', 'Dimimitko123');
+define('DB_NAME', 'u135333_UK8s4RJLe6');
+define('DB_USERNAME', 'u135333_UK8s4RJLe6n');
+define('DB_PASSWORD', '^l@6PuvkKtjqFE2.KB60UzU^');
 define('ERROR_MESSAGE', 'Erreur dans la base de donnée');	try {
 	$odb = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME, DB_USERNAME, DB_PASSWORD);
 } catch( PDOException $Exception ) {
