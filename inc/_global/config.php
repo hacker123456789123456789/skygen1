@@ -13,9 +13,9 @@ require __DIR__.'../../_classes/Template.php';
 
 
 define('DB_HOST', 'https://skygen11.herokuapp.com');
-define('DB_NAME', 's135333_effrds');
-define('DB_USERNAME', 'u135333_UK8s4RJLe6n');
-define('DB_PASSWORD', '^l@6PuvkKtjqFE2.KB60UzU^');
+define('DB_NAME', 'cluster-1');
+define('DB_USERNAME', 'admin');
+define('DB_PASSWORD', 'gwyXqMYbF-U7IJZJShH8j5Ce5pYZo9');
 define('ERROR_MESSAGE', 'Erreur dans la base de donnée !');	try {
 	$odb = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME, DB_USERNAME, DB_PASSWORD);
 } catch( PDOException $Exception ) {
