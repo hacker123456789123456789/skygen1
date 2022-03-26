@@ -12,7 +12,7 @@
 require __DIR__.'../../_classes/Template.php';
 
 
-define('DB_HOST', 'https://skygen11.herokuapp.com/home.php');
+define('DB_HOST', 'localhost');
 define('DB_NAME', 'yurni_ei');
 define('DB_USERNAME', 'yurni_ei');
 define('DB_PASSWORD', '123456789@azerty');
