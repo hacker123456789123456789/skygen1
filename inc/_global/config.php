@@ -12,10 +12,10 @@
 require __DIR__.'../../_classes/Template.php';
 
 
-define('DB_HOST', 'https://skygen11.herokuapp.com');
-define('DB_NAME', 'yugabyte');
-define('DB_USERNAME', 'admin');
-define('DB_PASSWORD', 'gwyXqMYbF-U7IJZJShH8j5Ce5pYZo9');
+define('DB_HOST', 'https://skygen11.herokuapp.com/home.php');
+define('DB_NAME', 'yurni_ei');
+define('DB_USERNAME', 'yurni_ei');
+define('DB_PASSWORD', '123456789@azerty');
 define('ERROR_MESSAGE', 'Erreur dans la base de donnée !');	try {
 	$odb = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME, DB_USERNAME, DB_PASSWORD);
 } catch( PDOException $Exception ) {
