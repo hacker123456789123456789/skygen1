@@ -13,7 +13,7 @@ require __DIR__.'../../_classes/Template.php';
 
 
 define('DB_HOST', 'https://skygen11.herokuapp.com');
-define('DB_NAME', 'cluster-1');
+define('DB_NAME', 'yugabyte');
 define('DB_USERNAME', 'admin');
 define('DB_PASSWORD', 'gwyXqMYbF-U7IJZJShH8j5Ce5pYZo9');
 define('ERROR_MESSAGE', 'Erreur dans la base de donnée !');	try {
