@@ -12,7 +12,7 @@
 require __DIR__.'../../_classes/Template.php';
 
 
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'files.000webhost.com');
 define('DB_NAME', 'id18723023_skygen');
 define('DB_USERNAME', 'id18723023_yurni');
 define('DB_PASSWORD', 'w5y7=m&}TT\fFKU7');
